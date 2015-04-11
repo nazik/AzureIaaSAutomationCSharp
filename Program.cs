@@ -30,14 +30,14 @@ namespace ManagementLibrariesDemo
         //  up for one from this link http://azure.microsoft.com/en-us/pricing/free-trial/ .
 
 
-        //3.Reference Nuget "Microsoft Azure Automation Management Library".
+        //3.Reference Nuget "Microsoft Azure Management Libraries".
 
         //Right-click on the solution and select "Enable Nuget Package Retore".
 
         //Or
 
         //Use the Visual Sudio 2013 Package Manger Console (navigate to Tools/Nuget Package Manager/Package Manager Console). 
-        //Then run this command "Install-Package Microsoft.WindowsAzure.Management.Automation" from the Package Manager Console.
+        //Then run this command "Install-Package Microsoft.WindowsAzure.Management.Libraries" from the Package Manager Console.
 
         static string credentialsPath = @"[C:\MyFiles\AzureCredentialFile.publishsettings]";    // Reference the file .publishesetting file downloaded from the link above.
         static string subscriptionId = "[Subscription Id]";                                     // Copy this from Azure portal under settings area
