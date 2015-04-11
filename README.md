@@ -15,7 +15,7 @@ from this link https://manage.windowsazure.com/publishsettings and save it in a 
 You will need an Azure Subscription to download the file. You can sign up for one from this link http://azure.microsoft.com/en-us/pricing/free-trial/ .
 
 3.   
-Reference Nuget "Microsoft Azure Automation Management Library" in one of the following ways:
+Reference Nuget "Microsoft Azure Management Libraries" in one of the following ways:
 
   Right-click on the solution and select "Enable Nuget Package Retore".
 
