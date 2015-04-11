@@ -17,7 +17,7 @@ You will need an Azure Subscription to download the file. You can sign up for on
 3.   
 Reference Nuget "Microsoft Azure Management Libraries" in one of the following ways:
 
-  Right-click on the solution and select "Enable Nuget Package Retore".
+  Right-click on the solution node and select "Enable Nuget Package Retore".
 
   Or
 
