@@ -1,5 +1,5 @@
 # AzureIaaSAutomationCSharp
-An Azure IaaS Automation C# starter solution using Microsoft Azure Management Libraries
+An Azure IaaS Automation C# starter solution using Microsoft Azure Management Libraries (MAML)
 
 Troubleshooting: 
   Please do right-click on Visual Studio Solution and select "Clean Solution" if you encounter problems compiling after        restoring the NuGet package as instructed below.
