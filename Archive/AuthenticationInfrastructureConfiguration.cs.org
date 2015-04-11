@@ -1,0 +1,36 @@
+﻿
+namespace ManagementLibrariesDemo
+{
+    /// <summary>
+    /// Provides the basic data points needed to support AAD 
+    /// authentication in an app making use of the 
+    /// management libraries.
+    /// </summary>
+    public interface ITokenCredentialConfiguration
+    {
+        string GetTenantId();
+        string GetClientId();
+        string GetRedirectUrl();
+    }
+
+    /// <summary>
+    /// My personal configuration. :)
+    /// </summary>
+    public class MyPersonalConfiguration : ITokenCredentialConfiguration
+    {
+        public string GetTenantId()
+        {
+            return "[PUT YOUR ACTIVE DIRECTORY TENANT HERE]";
+        }
+
+        public string GetClientId()
+        {
+            return "[PUT YOUR ACTIVE DIRECTORY APP's CLIENT ID HERE]";
+        }
+
+        public string GetRedirectUrl()
+        {
+            return "[PUT YOUR ACTIVE DIRECTORY APP'S REDIRECT URL HERE]";
+        }
+    }
+}
