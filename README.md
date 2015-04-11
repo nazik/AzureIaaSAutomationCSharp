@@ -1,5 +1,8 @@
 # AzureIaaSAutomationCSharp
-A starter Azure IaaS Automation C# solution using Microsoft Azure Automation Management Library
+An Azure IaaS Automation C# starter solution using Microsoft Azure Automation Management Library
+
+Troubleshooting: 
+  Please do right-click on Visual Studio Solution and select "Clean Solution" if you encounter problems compiling after        restoring the NuGet package as instructed below.
 
 Prerequisites
 
@@ -7,12 +10,12 @@ Prerequisites
 Visual Studio 2013 Community Edition or above https://www.visualstudio.com/en-us/products/visual-studio-community-vs
 
 2.   
-Download the following credential file .publishsettings which has the Base64 azure management certificate 
-from this link https://manage.windowsazure.com/publishsettings. You will need an Azure Subscription to download the file. 
-You can sign up for one from this link http://azure.microsoft.com/en-us/pricing/free-trial/ .
+Download credential file .publishsettings which has the Base64 Azure management certificate 
+from this link https://manage.windowsazure.com/publishsettings and save it in a hard drive folder. 
+You will need an Azure Subscription to download the file. You can sign up for one from this link http://azure.microsoft.com/en-us/pricing/free-trial/ .
 
 3.   
-Reference Nuget "Microsoft Azure Automation Management Library".
+Reference Nuget "Microsoft Azure Automation Management Library" in one of the following ways:
 
   Right-click on the solution and select "Enable Nuget Package Retore".
 
