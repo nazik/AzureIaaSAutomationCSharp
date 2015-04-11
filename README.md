@@ -1,5 +1,5 @@
 # AzureIaaSAutomationCSharp
-Starter Azure IaaS automation done with C# using Microsoft Azure Automation Management Library
+A starter Azure IaaS Automation C# solution using Microsoft Azure Automation Management Library
 
 Prerequisites
 
