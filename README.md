@@ -22,5 +22,5 @@ Reference Nuget "Microsoft Azure Automation Management Library" in one of the fo
   Or
 
   Use the Visual Sudio 2013 Package Manger Console (navigate to Tools/Nuget Package Manager/Package Manager Console). 
-  Then run this command "Install-Package Microsoft.WindowsAzure.Management.Automation" from the Package Manager Console.
+  Then run this command "Install-Package Microsoft.WindowsAzure.Management.Libraries" from the Package Manager Console.
 
